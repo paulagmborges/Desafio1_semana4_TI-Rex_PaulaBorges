@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #331436;
+    padding: 10px 20px;
+}
+
+/* Barra de navegação */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Alinhamento da parte esquerda (logo e título) */
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Título do site */
+.site-title {
+    font-family: 'Roboto Serif'; 
+    font-style: normal;
+    font-weight: 28;
+    
+    color: #FFFFFF;
+  
+}
+
+/* Botão de login */
+.nav-right .btn-login {
+  
+    background-color: #CB4F57;
+    color:#FCF4B6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 50px;
+    font-family: 'Roboto';
+    cursor: pointer;
+    font-size: 16px;
+  
+}
+
+/* Botão de login - hover */
+.nav-right .btn-login:hover {
+    background-color:#dd979b ;
+    color: #fff;
+}
+
