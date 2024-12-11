@@ -125,5 +125,31 @@ header {
     background-color:#CB4F57 ; 
 }
 
+.section-2{
+   
+    padding: 60px 170px; /* Define o espaçamento interno */
+    
+}
+.btn-section-2{
+    padding: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-learn-more{
+    padding: 12px ;
+    background-color:#331436;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px ; 
+    margin: auto;
+
+}
+.section-2-img{
+    display: flex;
+    justify-content: space-around;
+}
 
 
