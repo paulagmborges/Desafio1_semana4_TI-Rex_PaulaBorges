@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
+    
     margin: 0;
     padding: 0;
     font-family: "Roboto", serif;
@@ -15,6 +16,7 @@ body{
 }
 /* cabeçalho */
 header {
+
     background-color: #331436;
     padding:  20px;
    
@@ -25,6 +27,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    gap:40px
 }
 
  /*Alinhamento da parte esquerda (logo e título) */
@@ -42,69 +46,76 @@ header {
 
 /* Título do site */
 .site-title {
+    width: 1070px;
+    height: 36px;
     font-size: 28px;
-    border: 1px solid #000000;
-    color: #FFFFFF;
-  
+    line-height: 36px;
+    color: #FFFFFF; 
 }
-
 /* Botão de login */
-.nav-right .btn-login {
+.nav-right .btn-login{
+    width: 240px;
+    height: 48px;
     background-color: #CB4F57;
+    gap: 12px;
     font-size: 16px;
     color:#FCF4B6;
     text-align: center;
     border-radius: 5px;
-    border: 1px;
-    width: 240px;
-    height: 48px ;
-}
-
-/* Botão de login - hover */
-.nav-right .btn-login:hover {
-    background-color:#dd979b ;
-    color: #fff;  
 }
 
 /*main*/
-/*Seção 1*/
+
+/*Seção 1 da main*/
 .main-section{
+    width: 1440px;
+    height: 496px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 170px;
-    gap: 60px; /* Espaço entre o texto e a imagem */
+    gap: 60px; 
     background-color:#7A1745;
   
 }
 .container-section-text {
     background-color:#7A1745;
+    width: 500px;
+    height: 216px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 0;
     text-align: center;
     color: #FFFFFF;
-    gap: 20px;
+    gap: 24px;
    
 }
 
-.title-section{
+.title-section-1{
+    width: 520px;
+    height: 48px;
     font-size:40px;
+    line-height: 48px;
     text-align: center;
+    color: #FFFFFF;
 }
 .description-section{
+    width: 520px;
+    height: 72px;
     font-size: 16px;
+    line-height: 24px;
     text-align: center;
 
 }
 .container-section-img{
     width: 540px; 
     height: 437px;
+  
 }
 
-.btn-start {
+.btn-getStart {
     text-align: center;
     width:240px ;
     height: 48px;
@@ -113,90 +124,122 @@ header {
     color:#FCF4B6 ;
     padding: 12px;
     border-radius: 8px;
+    font-size: 16px;
+   
 }
 
-
-.btn-start:hover {
-    background-color:#CB4F57 ; 
-}
 /*Seção 2*/
 .section-2{
+    width: 1440px;
+    height: 792px;
     padding: 60px 170px; /* Define o espaçamento interno */
-    
+    gap: 60px;
 }
-
+.section-2-text{
+    width: 1100px;
+    height: 192px;
+    gap: 60px;
+}
 .title-section-2{
+    width: 1100px;
+    height: 48px;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    margin: 10px;
     color:#000000;
-   
-  font-style: normal;
+ 
 
 }
 .description-section-2{
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     margin: 10px;
 
-
-}
-
-.btn-section-2{
-    padding: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .btn-learn-more{
+    width: 240px;
+    height: 48px;
     padding: 12px ;
     background-color:#331436;
     font-size: 16px;
     color: #fff;
-    text-align: center;
+    line-height: 24px;
     border-radius: 5px ; 
-    margin: auto;
 
 }
 .section-2-img{
+    width: 1100px;
+    height: 420px;
     display: flex;
     justify-content: space-around;
+    gap: 40px;
 }
 .section-3 {
-    display: flex; /* Define layout flexível */
-    flex-direction: column; /* Coloca os itens em uma coluna */
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
-    height: 100vh; /* Faz a altura da seção ocupar toda a janela */
-    text-align: center; /* Centraliza o texto */
-    background-color:#FCF4B6; 
+    width: 1440px;
+    height: 552px;
+    padding: 60px 170px;
+    display: flex;
+    flex-direction: column;
+    background-color:#FCF4B6;
+    gap: 60px;
 
 }
 .section-3-text{
- 
-   
+    display: flex; /* Define layout flexível */
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
     color:#331436;
-    margin: auto;
+    gap: 24px;
 
 }
+.title-section-3{
+    width: 520px;
+    height: 48px;
+    text-align: center;
+    align-items: center;
+    line-height: 48px;
+    font-size: 40px;
+}
+.description-section-3{
+    width: 520px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #331436;
+}
 .btn-section-3{
+    width: 240px;
+    height:48px ;
     padding: 12px;
     border-radius: 8px;
     background-color: #331436;
-    color: #FCF4B6;
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
     margin: auto;
 }
+
+.section-3-img{
+    width: 1100px;
+    height: 204px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
 .section-4 {
-    padding: 40px;
-    background-color: #f9f9f9;
+    width: 1440px;
+    height: 338px;
+    gap: 60px;
+    padding: 60px 170px;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section-4-content {
+.section-4 {
     display: flex;
     gap: 20px; /* Espaçamento entre o texto e o formulário */
     max-width: 800px;
@@ -204,25 +247,41 @@ header {
 }
 
 .section-4-text {
-    flex: 1; /* Faz o texto ocupar metade do espaço */
-    color: #331436;
-    text-align: center;
-    padding: 20px;
+  width: 520px;
+  height: 96px;
+  gap: 24px;
 }
-
+.title-section-4{
+    
+    color: #331436;
+    line-height: 48px;
+    font-weight: 700;
+    font-size: 40px;
+  
+}
+.description-section-4{
+    width: 520px; ;
+    height: 48px; ;
+    color: #331436;
+    line-height: 24px;
+    font-size: 16px;
+  
+}
 .section-4-form {
-    flex: 1; /* Faz o formulário ocupar metade do espaço */
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+   width: 520px;
+   height: 268px;
+   gap: 40px;
+   background-color: #FFFFFF;
+    
 }
 
 .section-4-form form {
+    width: 520px;
+    height: 268px;
     display: flex;
     flex-direction: column;
-    padding: 60px 170px;
-    gap: 4px; /* Espaçamento entre os campos do formulário */
+   
+  
 }
 
 .section-4-form label {
@@ -231,55 +290,57 @@ header {
 }
 
 .section-4-form input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    width: 520px;
+    height: 36px;
+    gap: 4px;
+    padding: 12px  8px;
+    border-radius: 6px;
 }
 
 .section-4-form button {
-    padding: 12px;
+    width: 240px;
+    height: 48px;
+    gap: 12px;
     background-color: #331436;
-    color:#FFFFFF;
-    gap: 4px;
+    padding: 12px;
     border-radius: 8px;
-}
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+
+}   
 .footer-section{
+    width: 1440px;
+    height: 220px;
     background-color: #331436;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 60px;
     background-color: #331436;
-    gap: 20px; /* Espaçamento entre imagens e textos */
+    gap: 60px; 
     border-top: 1px solid #ccc;
 }
     
 .footer-img {
+
         display: flex;
-        flex-direction: row; /* Ícones lado a lado */
+        flex-direction: row; 
         justify-content: center;
         align-items: center;
-        gap: 15px; /* Espaçamento entre os ícones */
-}
+        gap: 15px; 
     
 .footer-img img {
-        width: 50px; /* Ajuste do tamanho dos ícones */
-        height: auto;
+        width: 34px; 
+        height: 34px;
 }
     
 .footer-text {
+
         display: flex;
-        flex-direction: row; /* Textos lado a lado */
+        flex-direction: row; 
         justify-content: center;
         align-items: center;
-        gap: 20px; /* Espaçamento entre os textos */
-        font-size: 14px;
+        gap: 20px; /
+        font-size: 20px;
         color: #FFFFFF;
 }
-
-    
-.footer-text p:hover {
-        text-decoration: underline;
-        color: #000;
-}
-    
