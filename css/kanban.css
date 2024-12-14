@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: "Roboto", serif;
 }
-       
+body{
+    font-family: "Roboto", serif;
+}       
 header {
     background-color: #331436;
     width: 100%;
@@ -24,7 +26,8 @@ header {
 }
     
 .nav-left {
-    font-size: ;
+    min-width: 758px;
+    min-height: 36px;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -40,15 +43,19 @@ header {
     
 .site-title {
     font-size: 28px;
+    font-weight: 400;
     line-height: 36px;
     color: #FFFFFF;
     align-items: center;
 }
 .nav-right{
+    min-width: 552px;
+    min-height: 36px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    gap: 40px;
 }
 .nav-right ul {
     list-style: none;
@@ -64,6 +71,58 @@ header {
     color: white;
     text-decoration: none;
 }
+.nav-right-search {
+    width: 200px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px;
+    background-color: #FFFFFF1A; /* Branco com opacidade */
+    border-radius: 6px;
+}
+
+.search-form {
+    width: 200px; 
+    height: 36px; 
+    display: flex; /* Alinha conteúdo internamente */
+    align-items: center;
+    background-color: #FFFFFF1A; 
+    border-radius: 6px; /* Bordas arredondadas */
+    padding: 8px; /* Espaçamento interno */
+    border: 1px solid #FFFFFF33; /* Contorno sutil */
+}
+
+input[type="text"] {
+    flex-grow: 1; 
+    border: none; /* Remove borda padrão */
+    outline: none; /* Remove borda de foco padrão */
+    background: transparent; /* Fundo transparente */
+    color: #FFFFFF; 
+    font-size:14px; 
+    line-height: 20px;
+    padding-left: 8px; 
+}
+
+.search-button {
+    background: none; /* Remove o fundo padrão */
+    border: none; /* Remove bordas padrão */
+    display: flex; /* Permite centralizar o ícone */
+    align-items: center;
+    justify-content: center;
+    width: 20px; 
+    height: 20px;
+    color:rgba(255, 255, 255, 0.7)
+
+}
+
+.search-icon {
+    width: 17px; /* Tamanho do ícone */
+    height: 17px;
+    opacity: 0.8; /* Transparência do ícone */
+}
+
+
 
 .container-main{
     width: 100%;
@@ -78,7 +137,6 @@ header {
     gap: 60px;  
     display: flex;
     justify-content: center;
-
 
 }
 .todo-column {
