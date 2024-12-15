@@ -17,14 +17,14 @@ header {
    
 }
 
-/* Barra de navegação */
+
 .container-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
- /*Alinhamento da parte esquerda (logo e título) */
+
 .nav-left {
     display: flex;
     align-items: center;
@@ -62,12 +62,12 @@ p{
     font-size: 16px;
     text-align: center;
 }
-/* Centraliza o formulário */
+
 .login-form {
     width: 520px;
     height: 248px; 
-    font-size: 14px;     /* Largura máxima do formulário */
-    margin: 50px auto;     /* Centraliza o formulário horizontalmente */
+    font-size: 14px;     
+    margin: 50px auto;     
     padding: 20px;
     border-radius: 8px;
     
@@ -75,28 +75,28 @@ p{
     
 }
 
-/* Estiliza os elementos do formulário */
+
 form {
     display: flex;
-    flex-direction: column; /* Alinha os itens verticalmente */
+    flex-direction: column; 
 }
 
-/* Estiliza os rótulos */
+
 form label {
     margin-bottom: 8px;
     font-weight: bold;
 }
 
-/* Estiliza os campos de entrada */
+
 form input {
-    margin-bottom: 10px;    /* Espaço entre os campos */
+    margin-bottom: 10px;    
     padding: 10px;
     font-size: 16px;
     border-radius: 4px;
   
 }
 
-/* Estiliza o botão */
+
 form button {
     width: 240px;
     height: 48px;

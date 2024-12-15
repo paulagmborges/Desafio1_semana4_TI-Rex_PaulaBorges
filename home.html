@@ -9,23 +9,21 @@
 </head>
 <body>
     <header>
-        <nav class="container-nav">
-            <div class="nav-left">
-                <img src="img/logo-1.svg" alt="Logo do site Project Manager" class="logo">
-                <h1 class="site-title-header">Project Manager</h1>
-            </div>
-            <div class="nav-right">
-                <button class="btn-login">Login</button>
-            </div>
-        </nav>
+        <div class="logo-container">
+            <img src="img/logo-1.svg" alt="Logo do site Project Manager" class="logo">                
+            <h1 class="site-title-header">Project Manager</span></h1>
+        </div>            
+        <div class="nav-right">
+            <a href="./login.html"><button class="btn-login">Login</button></a>
+        </div>
+ 
     </header>
     <main>
         <section class="main-section">
             <div class="section-1-text">
-                <h1 class="title-section-1">Welcome to Project Manager</h1>
+                <h1 class="title-section-1">Welcome to Project <span>Manager</span></h1>
                 <p class="description-section-1">Get your project and ideas in order, all in one place! Sign up now and discover a smarter way to manage your work with efficiency and teamwork.</p>
-           
-                <button class="btn-getStart">Get Started</button>   
+                <a href="./login.html"><button class="btn-getStart">Get Started</button></a>   
                      
             </div>
             <div class="section-1-img">
@@ -36,14 +34,28 @@
             <div class="section-2-text">
                 <h2 class="title-section-2">The Manager</h2>
                 <p class="description-section-2">Project Manager is a tool designed to make organizing and tracking your daily tasks easier than ever. With a clean, intuitive interface and powerful features, you can plan, prioritize, and keep tabs on your projects - whether you’re working solo or a with a team</p>
-            </div>
-            <div class="btn-section-2">
+            
                 <button class="btn-learn-more">Learn More</button>
-            </div>   
+              
+        </div> 
             <div class="section-2-img">
-                <img src="./img/card.svg" alt="">
-                <img src="./img/card (1).svg" alt="">
-                <img src="./img/card (2).svg" alt="">
+                
+                    <div class="img-column">    
+                    <img src="img/image container.svg" alt="">
+                    <p class="title-img" >Manage project</p>
+                    <p class="description-img">20 + Project</p>
+                    </div>
+                    <div>
+                       <img src="img/image.svg" alt="">
+                       <p class="title-img">Track Task</p>
+                       <p class="description-img">50+ tasks</p>  
+                    </div>
+                   <div>
+                     <img src="img/reuniao.svg" alt="">
+                     <p class="title-img">Colaboratte</p>
+                     <p class="description-img">10+ team members</p>
+                   </div>          
+                
             </div>
         </section >
         <section class="section-3">
@@ -52,13 +64,29 @@
                 <p class="description-section-3">Tools to enhance your project management</p>
                 <button class="btn-section-3">View all</button>
             </div>
-            <div class="section-3-img">
+            <div class="section-3-icon-container">
+                <div class="circle-item">
+                    <div class="icon"><img src="img/Icon (1).svg" alt="ícone de uma ferramenta"></div>                    
+                    <p class="icon-title">Task Scheduler</p>
+                    <p>Plan and schedule tasks</p>
+                </div>
+                <div class="circle-item">
+                    <div class="icon"><img src="img/Icon (2).svg" alt="ícone de um relogio"></div>                    
+                    <p class="icon-title">Deadline Tracker</p>
+                    <p>Keep track of project deadlines</p>
+                </div>
+                <div class="circle-item">
+                    <div class="icon"><img src="img/Icon (3).svg" alt="ícone de balão de conversa"></div>                    
+                    <p class="icon-title">Communication Hub</p>
+                    <p>Centralized team communication</p>
+                </div>
+                <div class="circle-item">
+                    <div class="icon"><img src="img/Icon.svg" alt="ícone de uma mesa de ferramentas"></div>                    
+                    <p class="icon-title">Progress Report</p>
+                    <p>Track project progress</p>
+                </div>
 
-                <img src="./img/item.svg" alt="">
-                <img src="./img/item (1).svg" alt="">
-                <img src="./img/item (2).svg" alt="">
-                <img src="./img/item (3).svg" alt="">
-                </div>        
+            </div>        
         </section>
         <section class="section-4">
             <div class="section-4-text">
@@ -66,30 +94,54 @@
                 <p class="description-section-4">Stay informed with our latest update</p>
             </div>
             <div class="section-4-form">
-                <form action="/submit" method="POST">
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
-                   
-                    <button type="submit">Enviar</button>
+                    <form>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                            <p>
+                               We promise not to spam 
+                            </p>
+                        </div>
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                        </div>
+
+                        <button type="submit">Subscribe</button>
                 </form>
             </div>
         </section>    
     </main>
     <footer>
-        <div class="footer-container">
-            <div class="footer-img">
-                <img src="./img/Group 11.svg" alt="Facebook">
-                <img src="./img/Group 5.svg" alt="Intagram">
-                <img src="./img/Group 9.svg" alt="Linkedin">
+        <div class="social-container">
+            <div class="social-icon">
+                <a href="https://www.facebook.com">
+                    <div class="icon-bg-white">
+                        <img src="./img/facebook 1.svg" alt="ícone do facebook">
+                    </div>
+                </a>
             </div>
-            <div class="footer-text">
-                <p>2024 Project Manager All rights reserved</p>
-                <p>Privacy Policy</p>
-                <p>Terms of Service</p>
+            <div class="media-icon">
+                <a href="https://www.instagram.com">
+                    <div class="icon-bg-white">
+                        <img src="./img/instagram 1.svg" alt="icone do instagram">
+                    </div>
+                </a>
             </div>
+            <div class="media-icon">
+                <a href="https://www.linkedin.com">
+                    <div class="icon-bg-white">
+                        <img src="./img/linkedin 1.svg" alt="icone do linkedin">
+                    </div>
+                </a>
+            </div>                
         </div>
+        <div class="footer-text-container">
+            <p>© 2024 Project Manager. All rights reserved.</p>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+        </div>
+       
     </footer>
     <script src="js/home.js"></script>
 </body>
