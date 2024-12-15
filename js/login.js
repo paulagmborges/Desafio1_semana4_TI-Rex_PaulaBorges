@@ -1,6 +1,6 @@
 
 function validateEmail(email) {
-    const emailTest = /\w+@\w+\w+/;
+    const emailTest = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
     return emailTest.test(email); 
 }
 
@@ -22,21 +22,24 @@ const emailInput = document.getElementById('email');
 const passwordInput = document.getElementById('password');
 
 form.addEventListener('submit', function (event) {
- 
+    event.preventDefault();
 const email = emailInput.value.trim();
 const password = passwordInput.value.trim();
 
+
+
     if (!validateEmail(email)) {
         alert("Por favor, insira um email válido.");
-        isValid = false;
+        return;
     }
 
     if (!validatePassword(password)) {
         alert("A senha deve ter entre 6 e 10 caracteres.");
-        isValid = false;
+        return;
     }
-    if (isValid) {
-        alert("Login realizado com sucesso!");
-        form.submit();
+    if (validatePassword(password) && validateEmail(email)) {
+       
+       location.href = "kanban.html"; 
+       form.reset();
     }
 });
