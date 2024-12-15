@@ -2,7 +2,7 @@
 
 ## 🎯 Descrição do Projeto
 
-Este projeto foi desenvolvido como parte do **Desafio 1 - Semana 04** da trilha do PB **Front-end (React) da Compass.Uol**, onde o objetivo foi recriar uma ferramenta de produtividade com três páginas: **Home**, **Login** e **Kanban**. O foco principal foi a fidelidade ao design original do Figma e a implementação das funcionalidades descritas no desafio:
+Este projeto foi desenvolvido para o **Desafio 1 - Semana 04** da trilha do PB **Front-end (React) da Compass.Uol**, onde o objetivo foi recriar uma ferramenta de produtividade com três páginas: **Home**, **Login** e **Kanban**. O foco principal foi a fidelidade ao design original do Figma e a implementação das funcionalidades descritas abaixo no desafio:
 
 ### 1. **Home**
 - Contém um formulário de inscrição com campos para nome e e-mail.
@@ -10,6 +10,7 @@ Este projeto foi desenvolvido como parte do **Desafio 1 - Semana 04** da trilha 
   - O campo nome não pode estar vazio.
   - O campo e-mail deve conter um formato válido.
 - As informações são armazenadas no `LocalStorage` se os requisitos forem atendidos.
+
 
 ### 2. **Login**
 - Possui um formulário com campos de e-mail e senha.
@@ -21,6 +22,7 @@ Este projeto foi desenvolvido como parte do **Desafio 1 - Semana 04** da trilha 
 ### 3. **Kanban**
 - Página com três colunas: "To Do", "In Progress" e "Complete".
 - Estrutura visual fiel ao design do Figma.
+
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -65,7 +67,7 @@ Este projeto foi desenvolvido como parte do **Desafio 1 - Semana 04** da trilha 
 1. **Clone o Repositório**:
    
    ```
-   git clonehttps://github.com/paulagmborges/Desafio1_semana4_TI-Rex_PaulaBorges
+   git clone: https://github.com/paulagmborges/Desafio1_semana4_TI-Rex_PaulaBorges
    ```
 
 2. **Abra o Projeto no Navegador**:
@@ -77,7 +79,3 @@ Este projeto foi desenvolvido como parte do **Desafio 1 - Semana 04** da trilha 
 ## 👩‍💻 Autora
 
 Desenvolvido por Paula Borges.
-
-## 📜 Licença
-
-Este projeto é apenas para fins educacionais e não possui licença oficial.
