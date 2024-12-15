@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     
-
+}
+body{
+    min-width: 1440px;
 }
 header {
     background-color: #331436;
@@ -18,6 +20,7 @@ header {
 }
  
 .logo-container {
+
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -48,7 +51,7 @@ header {
 
 .login-container{
     width: 100%;
-    
+    height: 600px;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -59,7 +62,8 @@ header {
     padding-bottom:60px ;
 }
 .login-text{
-   
+   display: flex;
+    flex-direction: column;
     height: 96px;
     gap: 24px;
     color: #331436;
