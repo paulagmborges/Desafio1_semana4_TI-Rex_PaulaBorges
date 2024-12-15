@@ -40,8 +40,8 @@ Este projeto foi desenvolvido como parte do **Desafio 1 - Semana 04** da trilha 
 |   ├── login.css        # Arquivo principal de estilos
 |   ├── kanban.css       # Arquivo principal de estilos
 ├── js/
-│   ├── home.js          # Scripts gerais
-│   ├── login.js         # Validações de formulários
+│   ├── home.js          # Validação do formulário da Home
+│   ├── login.js         # Validação do formulário do Login
 ├── img/                 # Imagens do projeto
 └── README.md            # Documentação do projeto
 ```
