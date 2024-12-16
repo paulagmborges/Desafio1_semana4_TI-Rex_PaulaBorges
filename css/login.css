@@ -167,8 +167,9 @@ footer {
     height: 13px;
 }
 
-
-
+html{
+    overflow-y: hidden;
+}
 
 
 
