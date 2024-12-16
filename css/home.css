@@ -67,7 +67,7 @@ header {
     border-radius: 8px;
 }
 .btn-login:hover{
-    background-color: #cb4f572c;
+    background-color: #cb4f576c;
     transform: scale(1.1);
 }
 
@@ -126,7 +126,7 @@ span{
 }
 
 .btn-getStart:hover {
-    background-color: #cb4f572c; 
+    background-color: #cb4f576c; 
     transform: scale(1.1); 
 }
 .container-section-img{
