@@ -49,18 +49,7 @@ header {
    
 }
 
-.btn-login{
-    width: 240px;
-    height: 48px;
-    background-color: #CB4F57;
-    gap: 12px;
-    font-size: 16px;
-    color:#FCF4B6;
-    text-align: 24px;
-    text-align: center;
-    border-radius: 8px;
-}
- 
+
 .nav-right {
     width: 556px;
     height: 36px;
@@ -137,7 +126,7 @@ ul li a {
     text-decoration: none;
     color: inherit;
 }
- 
+
 ul li {
     display: flex;
     justify-content: center;

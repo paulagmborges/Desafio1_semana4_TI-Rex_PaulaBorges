@@ -117,7 +117,14 @@ header {
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
+
 } 
+.login-form button:hover{
+    background-color: #331436d7;
+    transform: scale(1.1);
+
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -160,11 +167,7 @@ footer {
     height: 13px;
 }
 
-.footer-text p:hover {
-        text-decoration: underline;
-        color: #000;
-}
- 
+
 
 
 
