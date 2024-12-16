@@ -10,6 +10,7 @@ Este projeto foi desenvolvido para o **Desafio 1 - Semana 04** da trilha do PB *
   - O campo nome não pode estar vazio.
   - O campo e-mail deve conter um formato válido.
 - As informações são armazenadas no `LocalStorage` se os requisitos forem atendidos.
+- Ao clicar no botão Login deve ser redirecionado para a página de Login.
 
 
 ### 2. **Login**
@@ -17,11 +18,23 @@ Este projeto foi desenvolvido para o **Desafio 1 - Semana 04** da trilha do PB *
 - Validações implementadas com JavaScript:
   - O campo e-mail deve conter um formato válido.
   - O campo senha não pode estar vazio.
+  - O erro da validação deve ser exibido na tela.
 - Ao atender aos requisitos, redireciona o usuário para a página **Kanban**.
+- A página nã deve possuir scroll
 
 ### 3. **Kanban**
 - Página com três colunas: "To Do", "In Progress" e "Complete".
 - Estrutura visual fiel ao design do Figma.
+  
+### 4. **Requisitos em todas as páginas**
+- Utilizar tags semânticas do HTML.
+- No footer adicionar corretamente o link nos icones para as redes sociais.
+- Commits pelo Conventional Commits.
+  
+### 5. **Requisitos opcionais**
+- Aplicar responsividade
+- Aplicar efeitos Hover.
+-  Mensagem de confirmação ao enviar os dados do formulário corretamente.
 
 
 ## 🛠️ Tecnologias Utilizadas
@@ -33,17 +46,17 @@ Este projeto foi desenvolvido para o **Desafio 1 - Semana 04** da trilha do PB *
 ## 📂 Estrutura do Projeto
 
 ```plaintext
-/
+
 ├── home.html            # Página inicial (Home)
 ├── login.html           # Página de Login
 ├── kanban.html          # Página do Kanban
 ├── css/
-│   ├── home.css         # Arquivo principal de estilos
-|   ├── login.css        # Arquivo principal de estilos
-|   ├── kanban.css       # Arquivo principal de estilos
+│   ├── home.css         # Arquivo principal de estilos da págna Home
+|   ├── login.css        # Arquivo principal de estilos da página Login
+|   ├── kanban.css       # Arquivo principal de estilos da página Kanban
 ├── js/
-│   ├── home.js          # Validação do formulário da Home
-│   ├── login.js         # Validação do formulário do Login
+│   ├── home.js          # Validação do formulário da página Home
+│   ├── login.js         # Validação do formulário da página Login
 ├── img/                 # Imagens do projeto
 └── README.md            # Documentação do projeto
 ```
@@ -74,8 +87,6 @@ Este projeto foi desenvolvido para o **Desafio 1 - Semana 04** da trilha do PB *
    - Navegue até o diretório do projeto.
    - Abra o arquivo `home.html` no navegador.
 
+<br>
 
-
-## 👩‍💻 Autora
-
-Desenvolvido por Paula Borges.
+### 👩‍💻 Desenvolvido por Paula Borges.
