@@ -222,3 +222,20 @@ footer {
     text-decoration: underline;
     color: #000;
 }
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 4px;
+    display: block;
+}
+
+.success-message {
+    color: green;
+    background-color: #e6ffe6;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}

@@ -45,12 +45,12 @@
                     <p class="title-img" >Manage project</p>
                     <p class="description-img">20 + Project</p>
                     </div>
-                    <div>
+                    <div class="img-column">
                        <img src="img/image.svg" alt="">
                        <p class="title-img">Track Task</p>
                        <p class="description-img">50+ tasks</p>  
                     </div>
-                   <div>
+                   <div class="img-column">
                      <img src="img/reuniao.svg" alt="">
                      <p class="title-img">Colaboratte</p>
                      <p class="description-img">10+ team members</p>
@@ -98,6 +98,7 @@
                         <div>
                             <label for="email">Email:</label>
                             <input type="email" id="email" name="email" placeholder="Enter your e-mail" >
+                            <span id="email-error" class="error-message"></span>
                             <p>
                                We promise not to spam 
                             </p>
@@ -105,10 +106,12 @@
                         <div>
                             <label for="name">Name:</label>
                             <input type="text" id="name" name="name" placeholder="Enter your name">
+                            <span id="name-error" class="error-message"></span>
                         </div>
 
                         <button type="submit"class="btn-section-4">Subscribe</button>
                 </form>
+                <div id="success-box" class="success-message" style="display: none;"></div>
             </div>
         </section>    
     </main>

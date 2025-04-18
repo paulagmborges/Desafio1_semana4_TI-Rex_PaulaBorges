@@ -11,26 +11,41 @@ function validateName(name) {
 const form = document.getElementById('form');
 const emailInput = document.getElementById('email');
 const nameInput = document.getElementById('name');
+const emailError = document.getElementById('email-error');
+const nameError = document.getElementById('name-error');
+const successBox = document.getElementById('success-box');
 
 form.addEventListener('submit', function (event) {
     event.preventDefault(); 
 
     const email = emailInput.value.trim();
     const name = nameInput.value.trim();
+    let valid = true;
+
+    emailError.textContent = '';
+    nameError.textContent = '';
+    successBox.style.display = 'none';
 
     if (!validateEmail(email)) {
-        alert("Por favor, insira um e-mail válido.");
-        return;
+        emailError.textContent = 'Por favor, insira um email válido.';
+        valid = false;
     }
 
     if (!validateName(name)) {
-        alert("O nome deve ter entre 2 e 20 caracteres e conter apenas letras.");
-        return;
+        nameError.textContent = 'O nome deve ter entre 3 e 20 caracteres e conter apenas letras.';
+        valid = false;
     }
 
-    localStorage.setItem('email', email);
-    localStorage.setItem('name', name);
+    // Só continua se estiver tudo válido
+    if (valid) {
+        localStorage.setItem('email', email);
+        localStorage.setItem('name', name);
 
-    alert("Inscrição realizada com sucesso!");
-    form.reset(); 
+        successBox.textContent = "Inscrição realizada com sucesso!";
+        successBox.style.color = "green";
+        successBox.style.display = 'block';
+
+        form.reset(); 
+    }
 });
+

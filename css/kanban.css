@@ -48,15 +48,12 @@ header {
     color: white;
    
 }
-
-
 .nav-right {
     width: 556px;
     height: 36px;
     display: flex;
     gap: 40px;
 }
- 
 .nav-right-search {
     width: 200px;
     height: 36px;
