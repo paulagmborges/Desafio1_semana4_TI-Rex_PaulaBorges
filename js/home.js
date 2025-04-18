@@ -36,7 +36,7 @@ form.addEventListener('submit', function (event) {
         valid = false;
     }
 
-    // Só continua se estiver tudo válido
+   
     if (valid) {
         localStorage.setItem('email', email);
         localStorage.setItem('name', name);
