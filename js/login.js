@@ -18,6 +18,9 @@ const successBox = document.getElementById('success-box');
 form.addEventListener('submit', function (event) {
     event.preventDefault();
 
+    emailError.textContent = "";
+    passwordError.textContent = "";
+
 
 
     const email = emailInput.value.trim();
@@ -37,7 +40,6 @@ form.addEventListener('submit', function (event) {
     if (valid) {
         successBox.style.display = 'block';
 
-        // Opcional: esperar 2 segundos antes de redirecionar
         setTimeout(() => {
             window.location.href = 'kanban.html';
         }, 2000);
